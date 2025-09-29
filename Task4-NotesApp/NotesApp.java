@@ -51,6 +51,7 @@ public class NotesApp {
                     System.out.print("Enter your note: ");
                     String note = sc.nextLine();
                     addNote(note);
+                    sc.close();
                     break;
                 case 2:
                     readNotes();
