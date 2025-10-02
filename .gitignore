@@ -1,0 +1,10 @@
+# Java build files
+*.class
+*.jar
+
+# DB credentials (don’t commit this!)
+config.properties
+Task7-DatabaseApp/config.properties
+
+# Ignore VS Code settings
+# .vscode/
